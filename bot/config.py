@@ -11,7 +11,7 @@ class Telegram:
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "https://srv41082121.ultasrv.net")
+    BASE_URL = env.get("BASE_URL", "http://103.212.120.43")
     BIND_ADDRESS = env.get("BIND_ADDRESS", "0.0.0.0")
     PORT = int(env.get("PORT", 8080))
 
