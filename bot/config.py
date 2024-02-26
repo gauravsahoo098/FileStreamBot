@@ -11,7 +11,7 @@ class Telegram:
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "http://qrpay.fun")
+    BASE_URL = env.get("BASE_URL", "https://qrpay.fun")
     BIND_ADDRESS = env.get("BIND_ADDRESS", "103.212.120.43")
     PORT = int(env.get("PORT", 8080))
 
