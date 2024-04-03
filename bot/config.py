@@ -5,7 +5,7 @@ class Telegram:
     API_HASH = env.get("TELEGRAM_API_HASH", "d85872e77a1dedc1829ff27727f5d393")
     OWNER_ID = int(env.get("OWNER_ID", 7080468611))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "7080468611").split()
-    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "sahoovpsbot")
+    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "swegos_file_bot")
     BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "6838132221:AAHcyCK9Qej7lN7bGpuSMlRvmXUiaZLTO9k")
     CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1002079351549))
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
