@@ -3,16 +3,16 @@ from os import environ as env
 class Telegram:
     API_ID = int(env.get("TELEGRAM_API_ID", 20108610))
     API_HASH = env.get("TELEGRAM_API_HASH", "262418f5ebe0a599821a5802a90ee1a5")
-    OWNER_ID = int(env.get("OWNER_ID", 2014953230))
-    ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "2014953230").split()
+    OWNER_ID = int(env.get("OWNER_ID", 7080468611))
+    ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "7080468611").split()
     BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "sahoovpsbot")
-    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "6590978998:AAFxHZcqaRmDUeZ64mk9pCYy-n08bYVyAtI")
-    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1002040564082))
+    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "6838132221:AAHcyCK9Qej7lN7bGpuSMlRvmXUiaZLTO9k")
+    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1002079351549))
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "http://103.248.61.166")
-    BIND_ADDRESS = env.get("BIND_ADDRESS", "103.248.61.166")
+    BASE_URL = env.get("BASE_URL", "https://uclaadhar.cloud")
+    BIND_ADDRESS = env.get("BIND_ADDRESS", "uclaadhar.cloud")
     PORT = int(env.get("PORT", 80))
 
 # LOGGING CONFIGURATION
