@@ -12,7 +12,7 @@ class Telegram:
 
 class Server:
     BASE_URL = env.get("BASE_URL", "https://uclaadhar.cloud/")
-    BIND_ADDRESS = env.get("BIND_ADDRESS", "https://uclaadhar.cloud/")
+    BIND_ADDRESS = env.get("BIND_ADDRESS", "154.41.252.55")
     PORT = int(env.get("PORT", 80))
 
 # LOGGING CONFIGURATION
