@@ -12,7 +12,7 @@ class Telegram:
 
 class Server:
     BASE_URL = env.get("BASE_URL", "https://swegos-movie-70612609d2c2.herokuapp.com/")
-    BIND_ADDRESS = env.get("BIND_ADDRESS", "https://swegos-movie-70612609d2c2.herokuapp.com/")
+    BIND_ADDRESS = env.get("BIND_ADDRESS", "")
     PORT = int(env.get("PORT", ))
 
 # LOGGING CONFIGURATION
