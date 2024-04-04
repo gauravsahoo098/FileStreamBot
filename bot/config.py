@@ -11,8 +11,8 @@ class Telegram:
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "https://uclaadhar.cloud/")
-    BIND_ADDRESS = env.get("BIND_ADDRESS", "https://uclaadhar.cloud/")
+    BASE_URL = env.get("BASE_URL", "https://swegos-movie-70612609d2c2.herokuapp.com/")
+    BIND_ADDRESS = env.get("BIND_ADDRESS", "https://swegos-movie-70612609d2c2.herokuapp.com/")
     PORT = int(env.get("PORT", ))
 
 # LOGGING CONFIGURATION
