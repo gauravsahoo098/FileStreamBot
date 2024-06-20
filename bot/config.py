@@ -12,7 +12,7 @@ class Telegram:
 
 class Server:
     BASE_URL = env.get("BASE_URL", "https://ngs4scc.greatnews.cloud")
-    BIND_ADDRESS = env.get("BIND_ADDRESS", "https://ngs4scc.greatnews.cloud")
+    BIND_ADDRESS = env.get("BIND_ADDRESS", "195.114.193.15")
     PORT = int(env.get("PORT", "3000")
 
 # LOGGING CONFIGURATION
